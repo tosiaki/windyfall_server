@@ -1,0 +1,10 @@
+# Vim temporary files
+*~
+*.sw[po]
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# dotenv
+.env
