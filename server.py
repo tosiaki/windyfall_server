@@ -2,7 +2,7 @@ from aiohttp import web
 import socketio
 
 app = web.Application()
-sio = socketio.AsyncServer(async_mode='aiohttp')
+sio = socketio.AsyncServer(async_mode='aiohttp', cors_allowed_origins='*')
 sio.attach(app)
 
 @sio.event

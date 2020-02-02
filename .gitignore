@@ -1,3 +1,6 @@
+# Hidden directories and files
+.*
+
 # Vim temporary files
 *~
 *.sw[po]
